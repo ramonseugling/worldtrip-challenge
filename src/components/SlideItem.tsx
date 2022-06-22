@@ -29,10 +29,15 @@ export function SlideItem({
           bgSize="cover"
           textAlign="center"
         >
-          <Heading fontSize="48px" fontWeight="700" mb="1rem" color="gray.200">
+          <Heading fontSize={["2xl", "5xl"]} color="gray.50" fontWeight="700">
             {title}
           </Heading>
-          <Text fontSize="24px" fontWeight="700" color="gray.200">
+          <Text
+            fontWeight="bold"
+            color="gray.100"
+            fontSize={["sm", "2xl"]}
+            mt={["12px", "4"]}
+          >
             {description}
           </Text>
         </Flex>
