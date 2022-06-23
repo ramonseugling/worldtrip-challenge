@@ -12,7 +12,9 @@ import {
 } from "@chakra-ui/react";
 import { GetStaticPaths, GetStaticProps } from "next";
 
-import Header from "../../components/Header";
+import { Header } from "../../components/Header/Header";
+import { Card } from "../../components/Card/Card";
+import { Info } from "../../components/Info/Info";
 import { api } from "../../services/api";
 
 type ContinentType = {

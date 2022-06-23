@@ -1,6 +1,6 @@
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { SlideItem } from "./SlideItem";
+import { SlideItem } from "../SlideItem/SlideItem";
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 

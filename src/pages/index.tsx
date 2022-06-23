@@ -2,10 +2,10 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
-import Banner from "../components/Banner";
-import Header from "../components/Header";
-import { Slide } from "../components/Slide";
-import TravelTypes from "../components/TravelTypes";
+import { Header } from "../components/Header/Header";
+import { Slide } from "../components/Slide/Slide";
+import TravelTypes from "../components/TravelTypes/TravelTypes";
+import { Banner } from "../components/Banner/Banner";
 
 const Home: NextPage = () => {
   return (

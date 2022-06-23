@@ -38,7 +38,7 @@ export default function TravelTypes() {
           justifyContent="center"
           flexDirection="column"
         >
-          <Image src="/travel-types/surf.svg" alt="Drink" w="85px" h="85px" />
+          <Image src="/travel-types/surf.svg" alt="Surf" w="85px" h="85px" />
           <Text color="gray.800" fontWeight="600" fontSize="24px" mt="8">
             praia
           </Text>
@@ -50,7 +50,7 @@ export default function TravelTypes() {
           justifyContent="center"
           flexDirection="column"
         >
-          <Image src="/travel-types/building.svg" alt="Drink" />
+          <Image src="/travel-types/building.svg" alt="Building" />
           <Text color="gray.800" fontWeight="600" fontSize="24px" mt="8">
             moderno
           </Text>
@@ -62,7 +62,7 @@ export default function TravelTypes() {
           justifyContent="center"
           flexDirection="column"
         >
-          <Image src="/travel-types/museum.svg" alt="Drink" />
+          <Image src="/travel-types/museum.svg" alt="Museum" />
           <Text color="gray.800" fontWeight="600" fontSize="24px" mt="8">
             clássico
           </Text>
@@ -74,7 +74,7 @@ export default function TravelTypes() {
           justifyContent="center"
           flexDirection="column"
         >
-          <Image src="/travel-types/earth.svg" alt="Drink" />
+          <Image src="/travel-types/earth.svg" alt="Earth" />
           <Text color="gray.800" fontWeight="600" fontSize="24px" mt="8">
             e mais...
           </Text>
